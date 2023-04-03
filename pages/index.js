@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { BsFillMoonStarsFill } from 'react-icons/bs'
 import { AiFillInstagram, AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
-import deved from '../public/dev-ed-wave.png'
+import me from '../public/me.png'
 import code from '../public/code.png'
 import design from '../public/design.png'
 import consulting from '../public/consulting.png'
@@ -65,7 +65,7 @@ export default function Home() {
             <AiFillGithub />
           </div>
           <div className="relative mx-auto mb-10 bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:w-96 md:h-96">
-            <Image src={deved} fill="fill" className="object-cover" />
+            <Image src={me} fill="fill" className="object-cover" />
           </div>
         </section>
 
