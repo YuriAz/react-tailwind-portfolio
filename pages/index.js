@@ -60,9 +60,23 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-            <AiFillInstagram />
-            <AiFillLinkedin />
-            <AiFillGithub />
+            <a
+              href="https://www.instagram.com/yuri_aaz/"
+              rel="Instagram"
+              target="_blank"
+            >
+              <AiFillInstagram />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/yuri-diogo-az/"
+              rel="LinkedIn"
+              target="_blank"
+            >
+              <AiFillLinkedin />
+            </a>
+            <a href="https://github.com/YuriAz" rel="GitHub" target="_blank">
+              <AiFillGithub />
+            </a>
           </div>
           <div className="relative mx-auto mb-10 bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:w-96 md:h-96">
             <Image src={me} fill="fill" className="object-cover" />
